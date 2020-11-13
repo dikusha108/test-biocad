@@ -1,0 +1,56 @@
+@media (max-width:768px) {
+    .report {
+        padding: 20px;
+    }
+
+    .date {
+        padding-right: 20px;
+        max-width: 90px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:620px) {
+    .product{
+        flex-direction: column;
+    }
+
+    .choose-information{
+        margin-bottom: 30px;
+    }
+
+    .report-table-td:nth-child(2), .report-table-heading:nth-child(2){
+        display: none;
+    }
+}
+
+@media (max-width:460px) {
+
+    .offset, .slope{
+        background-image: none;
+        padding-left: 0;
+    }
+
+    .report-table-heading:nth-child(3), .report-table-heading:nth-child(4){
+        padding: 5px;
+    }
+
+    .search-btn{
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:400px) {
+    .report-table-td:nth-child(5), .report-table-heading:nth-child(5){
+        display: none;
+    }
+
+    .report-table-heading{
+        font-size: 11px;
+    }
+
+    .info-list{
+        font-size: 12px;
+    }
+}
+

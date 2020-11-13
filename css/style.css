@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;         
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;              
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "TT Norms", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.16px;
+    color: #353535;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto ;
+    padding: 30px 50px 106px;
+}
+
+
+.list-reset{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
